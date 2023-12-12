@@ -1,0 +1,35 @@
+{
+  "name": "puppeteer-ts-e2e-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:w": "tsc -w",
+    "test": "cross-env HEADLESS=true jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/jest-environment-puppeteer": "^5.0.6",
+    "@types/node": "^20.10.4",
+    "@types/puppeteer": "^7.0.4",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "cross-env": "^7.0.3",
+    "env-cross": "0.0.1-security",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "expect-puppeteer": "^9.0.2",
+    "jest-puppeteer": "^9.0.2",
+    "prettier": "^3.1.1",
+    "ts-jest": "^29.1.1"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "puppeteer": "^21.6.0",
+    "typescript": "^5.3.3"
+  }
+}
